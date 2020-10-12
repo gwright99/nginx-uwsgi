@@ -4,8 +4,8 @@ FROM nginx
 ENV HOME=/opt/repo
 
 # install python, uwsgi, and supervisord
-RUN apt-get update && apt-get install -y supervisor uwsgi python python-pip procps vim && \
-    /usr/bin/pip install uwsgi==2.0.19.1 flask==1.1.2
+RUN apt-get update && apt-get install -y supervisor uwsgi python3 python3-pip procps vim && \
+    /usr/bin/pip3 install uwsgi==2.0.19.1 flask==1.1.2
 
 # Source code file
 COPY ./src ${HOME}/src
