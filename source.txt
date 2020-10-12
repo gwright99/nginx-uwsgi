@@ -1,0 +1,7 @@
+"How to do rapid prototyping with Flaks, uWSGI, NGINX, and Docker on Openshift" - Scott Zelenka (Sept 10, 2018)
+towardsdatascience.com/how-to-do-rapid-prototyping-with-flask-uwsgi-nginx-and-docker-on-openshift-f0ef144033cb
+
+All python code and assets in 'src'.
+All container information in 'deployment'.
+
+To run Flask in local debug mode: './src/wsgi.py'
